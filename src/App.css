@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
-}
+/* .hero {
+  height: 400px;
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .hero img {
+  width: 16rem;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero,
+.projects {
+  background: #000;
+  min-height: 60vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* title */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title span {
+  padding: 0.5rem 1.5rem;
+  border-bottom: 3px solid;
+}
+
+/* icons */
+.icons {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* contact */
+.contact {
+  background: #000;
+  color: white;
+}
+/* .contact i {
+  font-size: 3rem;
+} */
+
+.icons i {
+  font-size: 3rem;
+}
+.fa-html5:hover {
+  color: red;
+}
+.fa-css3-alt:hover {
+  color: blue;
+}
+.fa-js:hover {
+  color: yellow;
+}
+
+.fa-figma:hover {
+  background: linear-gradient(
+    180deg,
+    #f51212 0%,
+    rgba(199, 26, 171, 0.72) 100%,
+    #14b70e 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.icons div {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* projects */
+.projects a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+/* so use hover only for screen larger than medium  */
+img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+.up {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 1.5rem;
 }
