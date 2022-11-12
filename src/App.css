@@ -57,6 +57,9 @@
 .fa-square-js:hover {
   color: rgb(216, 216, 4);
 }
+.fa-react:hover {
+  color: aqua;
+}
 
 .fa-figma:hover {
   background: linear-gradient(
