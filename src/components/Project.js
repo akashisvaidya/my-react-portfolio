@@ -16,10 +16,10 @@ export const Project = () => {
             <h2>My Portfoli site</h2>
             <div>
               <a href="#">
-                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-square-github text-white"></i>
               </a>
               <a href="">
-                <i class="fa-brands fa-chrome"></i>
+                <i class="fa-brands fa-chrome text-white"></i>
               </a>
             </div>
             <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>
@@ -40,10 +40,10 @@ export const Project = () => {
             <h2>My Portfoli site</h2>
             <div>
               <a href="#">
-                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-square-github text-white"></i>
               </a>
               <a href="">
-                <i class="fa-brands fa-chrome"></i>
+                <i class="fa-brands fa-chrome text-white"></i>
               </a>
             </div>
             <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>
@@ -64,10 +64,10 @@ export const Project = () => {
             <h2>My Portfoli site</h2>
             <div>
               <a href="#">
-                <i class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-square-github text-white"></i>
               </a>
               <a href="">
-                <i class="fa-brands fa-chrome"></i>
+                <i class="fa-brands fa-chrome text-white"></i>
               </a>
             </div>
             <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>

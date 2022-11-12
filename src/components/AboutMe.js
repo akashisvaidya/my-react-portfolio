@@ -2,29 +2,35 @@ import React from "react";
 
 export const AboutMe = () => {
   return (
-    <section id="about" class="container">
-      <div class="title">
-        <span>About Me</span>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <img src="assets/prem.png" alt="some img" width="100%" />
+    <>
+      <section id="about" class="container py-5">
+        <div class="title">
+          <span>About Me</span>
         </div>
-        <div class="col-md-8">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsam
-            ad fuga, cumque qui fugit inventore vel deleniti minus tempore
-            officiis eius blanditiis iusto perferendis officia odit atque
-            asperiores soluta.
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsam
-            ad fuga, cumque qui fugit inventore vel deleniti minus tempore
-            officiis eius blanditiis iusto perferendis officia odit atque
-            asperiores soluta.
-          </p>
+        <div class="row text-center">
+          <div class="col-md-5 mb-5">
+            <img
+              src="./assests/drew-hays-Kt8eGw8_S8Y-unsplash-removebg-preview.png"
+              alt=""
+              width="60%"
+            />
+          </div>
+          <div class="col-md-7 py-md-5">
+            <p>
+              I am a full-stack software engineer who loves coding,
+              problem-solving, and learning about new topics. I love discussing
+              ideas, talking to other people, and getting to know their
+              perspectives and thoughts on various topics, whether it be coding,
+              data structure, algorithms, VS-code shortcuts, the universe,
+              poetry, life, the arts, philosophy, etc. If I am not coding or
+              listening to a podcast, I am watching a comedy special, reading a
+              book, or annoying my beautiful wife. You are welcome to get in
+              touch with me to discuss your web development needs or to share
+              some jokes; I won't mind either. See ya. 😁 .
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };

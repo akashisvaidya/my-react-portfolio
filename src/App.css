@@ -54,8 +54,8 @@
 .fa-css3-alt:hover {
   color: blue;
 }
-.fa-js:hover {
-  color: yellow;
+.fa-square-js:hover {
+  color: rgb(216, 216, 4);
 }
 
 .fa-figma:hover {

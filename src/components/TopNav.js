@@ -3,12 +3,11 @@ import React from "react";
 export const TopNav = () => {
   return (
     <div>
-      {" "}
-      <div id="navbar" class="topNav">
-        <nav class="navbar navbar-expand-md bg-none">
-          <div class="container">
+      <div id="navbar">
+        <nav class="navbar bg-light navbar-expand-md fixed-top">
+          <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="assets/logo.png" alt="<My home page />" width="60px" />
+              <code>&lt;--Go to Home page-- &gt;</code>
             </a>
             <button
               class="navbar-toggler"
@@ -21,7 +20,10 @@ export const TopNav = () => {
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              class="collapse navbar-collapse nav"
+              id="navbarSupportedContent"
+            >
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#skills">

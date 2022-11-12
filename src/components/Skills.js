@@ -13,13 +13,13 @@ export const Skills = () => {
           {/* <!-- icons --> */}
           <div class="icons">
             <div>
-              <i class="fa-brands fa-html5 text-danger"></i> HTML
+              <i class="fa-brands fa-html5 "></i> HTML
             </div>
             <div>
-              <i class="fa-brands fa-css3-alt text-primary"></i> CSS
+              <i class="fa-brands fa-css3-alt "></i> CSS
             </div>
             <div>
-              <i class="fa-brands fa-square-js text-warning"></i> JavaScript
+              <i class="fa-brands fa-square-js"></i> JavaScript
             </div>
             <div>
               <i class="fa-brands fa-figma"></i>Figma

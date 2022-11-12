@@ -4,12 +4,11 @@ export const Layout = ({ children }) => {
   return (
     <>
       {children}
-      <footer class="bg-dark text-light p-5 text-center mt-5">
-        Copyright &copy; All right Reserved. Made with 💓 by me 🤷‍♀️
+      <footer class="p-4 text-center">
+        Copyright &copy; All Rights Reserved. Made with ❤️ by me 😊.
       </footer>
-
-      <a href="#navbar" id="goup">
-        <i class="fa-solid fa-circle-up"></i>
+      <a id="goup" class="up" href="#navbar">
+        <i class="fa-solid fa-arrow-up"></i>
       </a>
     </>
   );
