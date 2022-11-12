@@ -24,6 +24,9 @@ export const Skills = () => {
             <div>
               <i class="fa-brands fa-figma"></i>Figma
             </div>
+            <div>
+              <i class="fab fa-react"></i>React
+            </div>
           </div>
         </div>
       </div>
