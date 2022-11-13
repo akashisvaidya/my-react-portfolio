@@ -6,6 +6,9 @@
   width: 16rem;
 } */
 
+body {
+  font-family: "Libre Baskerville", serif;
+}
 .md-nav {
   display: flex;
   align-items: flex-end;
