@@ -6,6 +6,10 @@
   width: 16rem;
 } */
 
+.md-nav {
+  display: flex;
+  align-items: flex-end;
+}
 .hero,
 .projects {
   background: #000;
