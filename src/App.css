@@ -28,6 +28,9 @@
   border-bottom: 3px solid;
 }
 /* anchor */
+a {
+  text-decoration: none;
+}
 .icons a {
   text-decoration: none;
   color: #000;
@@ -75,7 +78,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
 }
 
 .icons div {
@@ -108,4 +111,8 @@ img:hover {
   bottom: 30px;
   right: 20px;
   font-size: 1.5rem;
+}
+
+.main-layout {
+  min-height: 87vh;
 }
