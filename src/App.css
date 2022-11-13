@@ -9,6 +9,7 @@
 .md-nav {
   display: flex;
   align-items: flex-end;
+  padding-right: 2rem;
 }
 .hero,
 .projects {
