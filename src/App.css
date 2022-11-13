@@ -27,7 +27,11 @@
   padding: 0.5rem 1.5rem;
   border-bottom: 3px solid;
 }
-
+/* anchor */
+.icons a {
+  text-decoration: none;
+  color: #000;
+}
 /* icons */
 .icons {
   font-size: 2rem;
