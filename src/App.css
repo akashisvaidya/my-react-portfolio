@@ -5,10 +5,29 @@
 /* .hero img {
   width: 16rem;
 } */
+/* .root {
+  font-family: "Libre Baskerville", serif;
+} */
+.root {
+  font-family: "Amatic SC", cursive;
+}
 
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* 
+.hero,
+.title {
+  font-family: "Playfair Display", serif;
+} */
+#btn {
+  font-family: "Playfair Display", serif;
+}
 .md-nav {
   display: flex;
   align-items: flex-end;
+  padding-right: 2rem;
 }
 .hero,
 .projects {
@@ -19,8 +38,8 @@
 
 /* title */
 .title {
+  font-family: "Libre Baskerville", serif;
   font-size: 2rem;
-  font-weight: bold;
   text-align: center;
   margin-top: 2rem;
   letter-spacing: 0.3rem;
@@ -28,7 +47,7 @@
 }
 
 .title span {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 0.5rem;
   border-bottom: 3px solid;
 }
 /* anchor */
@@ -55,6 +74,9 @@
 
 .icons i {
   font-size: 3rem;
+}
+.contact-icons {
+  font-size: 4rem;
 }
 .fa-html5:hover {
   color: red;

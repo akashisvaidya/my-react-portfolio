@@ -4,7 +4,7 @@ export const Project = () => {
   return (
     <div id="projects" class="projects py-3">
       <div class="title">
-        <span>Projects</span>
+        <span>PROJECTS</span>
       </div>
 
       <div class="container">
@@ -56,8 +56,8 @@ export const Project = () => {
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md">
+        <div class="row py-5">
+          <div class="col-md order-md-2 mb-3">
             <img src={project} alt="portfolio project" width="100%" />
           </div>
           <div class="col-md">

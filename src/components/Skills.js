@@ -7,7 +7,7 @@ export const Skills = () => {
         <div class="col">
           {/* <!-- title --> */}
           <div class="title">
-            <span>Skills</span>
+            <span>SKILLS</span>
           </div>
 
           {/* <!-- icons --> */}
