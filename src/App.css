@@ -8,8 +8,17 @@
 /* .root {
   font-family: "Libre Baskerville", serif;
 } */
-.root {
+/* .root {
   font-family: "Amatic SC", cursive;
+} */
+
+/* NavBar */
+#navbar {
+  color: gray;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding: 2rem;
 }
 
 p {
@@ -29,12 +38,12 @@ p {
   align-items: flex-end;
   padding-right: 2rem;
 }
-.hero,
+/* .hero,
 .projects {
   background: #000;
   min-height: 60vh;
   color: white;
-}
+} */
 
 /* title */
 .title {
