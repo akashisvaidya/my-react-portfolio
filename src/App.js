@@ -18,7 +18,7 @@ function App() {
         <Hero />
 
         {/* <!-- skills --> */}
-        <Skills />
+        {/* <Skills /> */}
 
         {/* <!-- projects --> */}
         <Project />

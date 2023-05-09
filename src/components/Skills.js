@@ -6,8 +6,8 @@ export const Skills = () => {
       <div class="row">
         <div class="col">
           {/* <!-- title --> */}
-          <div class="title">
-            <span>SKILLS</span>
+          <div className="mb-3">
+            <h3>Here are the few technologies I have been working with.</h3>
           </div>
 
           {/* <!-- icons --> */}

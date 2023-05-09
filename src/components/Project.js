@@ -4,7 +4,7 @@ export const Project = () => {
   return (
     <div id="projects" class="projects py-3">
       <div class="title">
-        <span>PROJECTS</span>
+        <span>Projects I have worked on.</span>
       </div>
 
       <div class="container">
