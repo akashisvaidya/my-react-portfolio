@@ -12,6 +12,7 @@
   font-family: "Amatic SC", cursive;
 } */
 
+<<<<<<< HEAD
 /* NavBar */
 #navbar {
   color: gray;
@@ -32,6 +33,10 @@ p {
 } */
 #btn {
   font-family: "Playfair Display", serif;
+=======
+body {
+  font-family: "Libre Baskerville", serif;
+>>>>>>> e5dbff806bd0b9c47b4154e85226f13abbdb4670
 }
 .md-nav {
   display: flex;
