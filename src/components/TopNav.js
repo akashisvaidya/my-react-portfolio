@@ -2,7 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import github from "../assests/github.svg";
+import linkedIn from "../assests/linkedIn.svg";
+import insta from "../assests/insta.svg";
+
+// import NavDropdown from "react-bootstrap/NavDropdown";
 
 export const TopNav = () => {
   return (
@@ -24,7 +28,21 @@ export const TopNav = () => {
               {/* <Nav.Link href="#skills">Skills</Nav.Link> */}
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#about">About Me</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#contact">
+                <span className="navbar-text">
+                  <div className="social-icon ">
+                    <a href="#" className="p-2">
+                      <img src={github} alt="" />
+                    </a>
+                    <a href="#" className="p-2">
+                      <img src={linkedIn} alt="" />
+                    </a>
+                    <a href="#" className="p-2">
+                      <img src={insta} alt="" />
+                    </a>
+                  </div>
+                </span>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

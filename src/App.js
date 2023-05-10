@@ -1,11 +1,14 @@
 import "./App.css";
 import { AboutMe } from "./components/AboutMe";
-import { Contact } from "./components/Contact";
+// import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
 import { Layout } from "./components/Layout";
+import { Navigation } from "./components/Navbar";
+
 import { Project } from "./components/Project";
-import { Skills } from "./components/Skills";
+// import { Skills } from "./components/Skills";
 import { TopNav } from "./components/TopNav";
+import { PortfolioTabs } from "./components/projectTabs";
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
       <div class="wrapper">
         {/* <!-- navbar --> */}
         <TopNav />
-
+        {/* <Navigation /> */}
         {/* <!-- hero section --> */}
         <Hero />
 
@@ -21,13 +24,14 @@ function App() {
         {/* <Skills /> */}
 
         {/* <!-- projects --> */}
-        <Project />
+        {/* <Project /> */}
+        <PortfolioTabs />
 
         {/* <!-- about me --> */}
         <AboutMe />
 
         {/* <!-- contact me --> */}
-        <Contact />
+        {/* <Contact /> */}
 
         {/* <!-- footer --> */}
       </div>

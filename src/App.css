@@ -1,7 +1,9 @@
 /* .hero {
   height: 400px;
 } */
-
+/* for color palette
+https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
+ */
 /* .hero img {
   width: 16rem;
 } */
@@ -20,6 +22,18 @@
   margin-bottom: 1rem;
   padding: 2rem;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+/* nabar */
 
 p {
   font-size: 1.2rem;
@@ -60,17 +74,17 @@ p {
   border-bottom: 3px solid;
 }
 /* anchor */
-.icons a {
+/* .icons a {
   text-decoration: none;
   color: #000;
-}
+} */
 /* icons */
-.icons {
+/* .icons {
   font-size: 2rem;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-}
+} */
 
 /* contact */
 .contact {
@@ -81,9 +95,9 @@ p {
   font-size: 3rem;
 } */
 
-.icons i {
+/* .icons i {
   font-size: 3rem;
-}
+} */
 .contact-icons {
   font-size: 4rem;
 }
@@ -113,12 +127,12 @@ p {
   /* text-fill-color: transparent; */
 }
 
-.icons div {
+/* .icons div {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 /* projects */
 .projects a {
@@ -187,7 +201,7 @@ img:hover {
   border-radius: 4px;
   transform: translateY(0%);
   /* background-color: #01e056; */
-  background-color: #ff013c;
+  background-color: #0be14b;
   border: solid 1px #00e6f6;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -215,16 +229,16 @@ img:hover {
   }
 }
 /* css for effect on software engineer */
-.hover-effect,
+/* .hover-effect,
 .hover-effect::after {
   padding: 16px 20px;
   font-size: 18px;
-  background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+  background: linear-gradient(45deg, transparent 5%, #33f8f8 5%);
   border: 0;
   color: #fff;
   letter-spacing: 3px;
   line-height: 1;
-  box-shadow: 6px 0px 0px #00e6f6;
+  box-shadow: 6px 0px 0px #f82222;
   outline: transparent;
   position: relative;
 }
@@ -314,4 +328,10 @@ img:hover {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
+} */
+
+.icons {
+  font-size: 5rem;
 }
+
+/* css for navbar */

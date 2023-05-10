@@ -1,5 +1,6 @@
 import React from "react";
 import hero from "../assests/hero.jpg";
+import Typewriter from "typewriter-effect";
 // import { motion } from "framer-motion";
 export const Hero = () => {
   return (
@@ -16,10 +17,36 @@ export const Hero = () => {
             </div> */}
             <div className="col-md-3"></div>
             <div class="col-md-6 mt-5 text-center py-md-5">
-              <h2>
-                Hi, I'm <span class="fw-bold">Aakash Vaidya</span>
-              </h2>
-              <div class="mt-2 mb-4 fw-bold hover-effect">
+              <h1>
+                Hi, I am
+                <span class="fw-bold">
+                  <div>
+                    <Typewriter
+                      options={{
+                        strings: ["a Software Engineer"],
+                        autoStart: true,
+                        loop: true,
+                      }}
+                      onInit={(typewriter) => {
+                        typewriter
+                          .typeString(
+                            ' <span style="color: #27ae60;">Akash Vaidya</span>'
+                          )
+                          // .callFunction(() => {
+                          //   console.log("String typed out!");
+                          // })
+                          .pauseFor(2500)
+                          .deleteAll()
+                          // .callFunction(() => {
+                          //   console.log("All strings were deleted");
+                          // })
+                          .start();
+                      }}
+                    />
+                  </div>
+                </span>
+              </h1>
+              {/* <div class="mt-2 mb-4 fw-bold hover-effect">
                 <h1
                   className="display-2"
                   initial={{ y: -100 }}
@@ -28,7 +55,8 @@ export const Hero = () => {
                 >
                   Software Engineer
                 </h1>
-              </div>
+              </div> */}
+
               <p>
                 I love <span className="fw-bold">coding </span> and{" "}
                 <span className="fw-bold">problem solving</span>, and always
