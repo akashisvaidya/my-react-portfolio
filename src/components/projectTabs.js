@@ -8,19 +8,22 @@ import {
   Tab,
 } from "react-bootstrap";
 import { Project } from "./Project";
+import { FinishedProjects } from "./FinishedProjects";
+import { CollabProjects } from "./CollabProjects";
+import { OngoingProjects } from "./OngoingProjects";
 
 export const PortfolioTabs = () => {
   return (
     <TabContainer defaultActiveKey="ongoing">
       <Nav variant="tabs" className="justify-content-center">
         <NavItem>
-          <NavLink eventKey="ongoing" className="text-success fw-bold">
-            Ongoing Projects
+          <NavLink eventKey="finished" className="text-success fw-bold">
+            Finished Projects
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink eventKey="finished" className="text-success fw-bold">
-            Finished Projects
+          <NavLink eventKey="ongoing" className="text-success fw-bold">
+            Ongoing Projects
           </NavLink>
         </NavItem>
         <NavItem>
@@ -31,13 +34,14 @@ export const PortfolioTabs = () => {
       </Nav>
       <TabContent>
         <Tab.Pane eventKey="ongoing">
-          <p>All Caught Up !</p>
+          <OngoingProjects />
         </Tab.Pane>
         <Tab.Pane eventKey="finished">
           {/* content for finished projects tab */}
+          <FinishedProjects />
         </Tab.Pane>
         <Tab.Pane eventKey="collaborate">
-          <Project />
+          <CollabProjects />
         </Tab.Pane>
       </TabContent>
     </TabContainer>

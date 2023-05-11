@@ -6,7 +6,7 @@ export const Skills = () => {
     <section id="skills" class="container py-4">
       {/* <!-- title --> */}
       <div className="mb-3">
-        <h3>Here are the few technologies I have been working with.</h3>
+        <h3>Techs I have been working with.</h3>
       </div>
       {/* <!-- icons --> */}
       <Marquee className="icons ">
@@ -15,6 +15,10 @@ export const Skills = () => {
         <i className="fa-brands fa-square-js m-2"></i>{" "}
         <i className="fa-brands fa-figma m-2"></i>
         <i className="fab fa-react m-2"></i>
+        <i class="fa-brands fa-bootstrap m-2"></i>
+        <i class="fa-brands fa-node-js m-2"></i>
+        <i class="fa-solid fa-database m-2"></i>
+        <i class="fa-brands fa-square-git m-2"></i>
       </Marquee>
     </section>
   );

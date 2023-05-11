@@ -59,10 +59,11 @@ export const Hero = () => {
               </div> */}
 
               <p>
-                I love <span className="fw-bold">coding </span> and{" "}
-                <span className="fw-bold">problem solving</span>, and always
-                looking for <span className="fw-bold">opportunities </span>to
-                learn more and enhance <span className="fw-bold">skills</span>.
+                I love <span className="fw-bold color-green">coding </span> and{" "}
+                <span className="fw-bold color-green">problem solving</span>,
+                and always looking for{" "}
+                <span className="fw-bold">opportunities </span>to learn more and
+                enhance <span className="fw-bold color-green">skills</span>.
               </p>
               {/* <button
                 // whileHover={{ scale: 1.6 }}
@@ -90,7 +91,13 @@ export const Hero = () => {
                     <line y2="17" x2="8" y1="17" x1="16"></line>
                     <polyline points="10 9 9 9 8 9"></polyline>
                   </svg>{" "}
-                  Resume
+                  <a
+                    href={resume}
+                    download
+                    className="text-decoration-none text-light"
+                  >
+                    Resume
+                  </a>
                 </div>
                 <div class="download">
                   <svg

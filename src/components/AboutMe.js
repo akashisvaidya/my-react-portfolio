@@ -14,17 +14,17 @@ export const AboutMe = () => {
           </div>
           <div class="col-md-8 py-md-3 text-center">
             <p>
-              I'm a full-stack software engineer who's passionate about coding,
-              problem-solving, and learning new things. I love discussing ideas
-              and exploring different perspectives, whether it's related to
-              coding, data structures, algorithms, or more philosophical areas
-              like the arts, life, and the potential of AI. When I'm not coding
-              or listening to podcasts, I enjoy spending time with my loved ones
-              and doing activities that help me maintain a healthy work-life
-              balance, like watching comedy specials, reading books, and
-              exploring new places. If you need help with your web development
-              needs, feel free to reach out to me. And if you just want to chat
-              and share some jokes, I'm always up for that too!
+              As a <span className="color-green">learner</span> and explorer, I
+              enjoy discussing ideas from various perspectives, including
+              coding, <span className="color-green">data structures</span>,{" "}
+              <span className="color-green">algorithms</span>, as well as the
+              arts, life, and the potential of{" "}
+              <span className="color-green">AI</span>. When I'm not engaged in
+              these activities, I spend time with loved ones, watching{" "}
+              <span className="color-green">comedy</span> specials, reading{" "}
+              <span className="color-green">books</span>, listening to{" "}
+              <span className="color-green">podcasts</span> and exploring new
+              places to maintain a healthy work-life balance.
             </p>
 
             <Skills />

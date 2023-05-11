@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
 /* .hero {
   height: 400px;
 } */
@@ -7,9 +16,9 @@ https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
 /* .hero img {
   width: 16rem;
 } */
-/* .root {
+.root {
   font-family: "Libre Baskerville", serif;
-} */
+}
 /* .root {
   font-family: "Amatic SC", cursive;
 } */
@@ -23,30 +32,22 @@ https://colorhunt.co/palette/191a191e51284e9f3dd8e9a8
   padding: 2rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 75px;
-}
-
 /* nabar */
 
 p {
   font-size: 1.2rem;
-  font-weight: normal;
+  font-weight: bold;
+  letter-spacing: 0.09rem;
 }
-/* 
+
 .hero,
 .title {
   font-family: "Playfair Display", serif;
-} */
-#btn {
-  font-family: "Playfair Display", serif;
 }
+
+/* #btn {
+  font-family: "Playfair Display", serif;
+} */
 .md-nav {
   display: flex;
   align-items: flex-end;
@@ -61,17 +62,17 @@ p {
 
 /* title */
 .title {
-  font-family: "Libre Baskerville", serif;
+  /* font-family: "Libre Baskerville", serif; */
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
-  letter-spacing: 0.3rem;
+  /* letter-spacing: 0.3rem; */
   margin-bottom: 4rem;
 }
 
 .title span {
   padding: 0.5rem 0.5rem;
-  border-bottom: 3px solid;
+  /* border-bottom: 3px solid; */
 }
 /* anchor */
 /* .icons a {
@@ -87,10 +88,7 @@ p {
 } */
 
 /* contact */
-.contact {
-  background: #000;
-  color: white;
-}
+
 /* .contact i {
   font-size: 3rem;
 } */
@@ -139,6 +137,13 @@ p {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 0 0.5rem;
+}
+.social-icon {
+  width: 2.5rem;
+}
+.social-icon:hover {
+  transform: scale(1.5); /* increase to 1.1 times original size */
+  transition: transform 0.3s ease-in-out;
 }
 
 /* so use hover only for screen larger than medium  */
@@ -330,8 +335,21 @@ img:hover {
   }
 } */
 
+/* css for contact form */
 .icons {
-  font-size: 5rem;
+  font-size: 3.5rem;
+}
+/* // to highlight the words in green */
+.color-green {
+  color: #4e9f3d;
 }
 
-/* css for contact form */
+.nav-btn:hover {
+  background-color: #d8e9a8;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  font-weight: normal;
+  /* letter-spacing: 0.0rem; */
+}
