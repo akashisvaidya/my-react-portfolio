@@ -2,6 +2,7 @@ import React from "react";
 import hero from "../assests/hero.jpg";
 import Typewriter from "typewriter-effect";
 // import { motion } from "framer-motion";
+
 export const Hero = () => {
   return (
     <>

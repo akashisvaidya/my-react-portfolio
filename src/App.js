@@ -1,5 +1,6 @@
 import "./App.css";
 import { AboutMe } from "./components/AboutMe";
+import { ContactForm } from "./components/ContactForm";
 // import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
 import { Layout } from "./components/Layout";
@@ -32,7 +33,7 @@ function App() {
 
         {/* <!-- contact me --> */}
         {/* <Contact /> */}
-
+        <ContactForm />
         {/* <!-- footer --> */}
       </div>
     </Layout>
