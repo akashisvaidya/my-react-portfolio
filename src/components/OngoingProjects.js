@@ -6,7 +6,7 @@ export const OngoingProjects = () => {
     <div>
       <div className="container mt-5" id="projects">
         <h2 className="text-center mb-5">
-          Projects I am cureently working on.
+          Projects I am currently working on.
         </h2>
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-4">

@@ -92,7 +92,7 @@ export const Hero = () => {
                     <polyline points="10 9 9 9 8 9"></polyline>
                   </svg>{" "}
                   <a
-                    href={resume}
+                    href="AakashVaidya_SE.pdf"
                     download
                     className="text-decoration-none text-light"
                   >
