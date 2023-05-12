@@ -1,83 +1,37 @@
 import React from "react";
 import project from "../assests/project.jpg";
+// import project from "../assests/project.jpg";
+import computer from "../assests/computer.gif";
+import project2 from "../assests/pro2.gif";
+import project3 from "../assests/pro3.gif";
 export const Project = () => {
   return (
-    <div id="projects" class="projects py-3">
-      <div class="title">
-        <span>Projects I have worked on.</span>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md mb-3">
-            <img src={project} alt="portfolio project" width="100%" />
-          </div>
-          <div class="col-md">
-            <h2>My Portfoli site</h2>
-            <div>
-              <a href="#">
-                <i class="fa-brands fa-square-github text-white"></i>
+    <div className="container mt-5" id="projects">
+      <h2 className="text-center mb-5">Projects I have worked on.</h2>
+      <div className="row">
+        <div className="col-lg-4 col-md-6 mb-4">
+          <div className="card border-0 shadow">
+            <img src={computer} alt="project 1" className="card-img-top" />
+            <div className="card-body">
+              <h5 className="card-title">#Project1</h5>
+              <p className="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <a href="#" className="m-2 text-dark  display-6">
+                <i class="fa-brands fa-github"></i>
               </a>
-              <a href="">
-                <i class="fa-brands fa-chrome text-white"></i>
+              <a href="#" className="m-2 text-dark display-6">
+                <i class="fa-brands fa-chrome"></i>
               </a>
-            </div>
-            <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              cum rem blanditiis voluptates sit quae veritatis enim eum, ullam
-              incidunt nemo deserunt tempore esse nostrum quibusdam quidem
-              nesciunt rerum vel.
-            </p>
-          </div>
-        </div>
-        <div class="row py-5">
-          <div class="col-md order-md-2 mb-3">
-            <img src={project} alt="portfolio project" width="100%" />
-          </div>
-          <div class="col-md">
-            <h2>My Portfoli site</h2>
-            <div>
-              <a href="#">
-                <i class="fa-brands fa-square-github text-white"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-chrome text-white"></i>
+              <a
+                href="https://twitter.com/intent/tweet?text=Visit%20Akash%27s%20website%20and%20check%20his%20projects%3A%20https%3A%2F%2Fakashvaidya.com"
+                target="_blank"
+                className="m-2 text-dark display-6"
+              >
+                <i class="fa-regular fa-paper-plane"></i>
               </a>
             </div>
-            <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              cum rem blanditiis voluptates sit quae veritatis enim eum, ullam
-              incidunt nemo deserunt tempore esse nostrum quibusdam quidem
-              nesciunt rerum vel.
-            </p>
-          </div>
-        </div>
-        <div class="row py-5">
-          <div class="col-md order-md-2 mb-3">
-            <img src={project} alt="portfolio project" width="100%" />
-          </div>
-          <div class="col-md">
-            <h2>My Portfoli site</h2>
-            <div>
-              <a href="#">
-                <i class="fa-brands fa-square-github text-white"></i>
-              </a>
-              <a href="">
-                <i class="fa-brands fa-chrome text-white"></i>
-              </a>
-            </div>
-            <p class="mt-3 fw-bold">Tech Used: HTML, CSS, JavaScript, React</p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              cum rem blanditiis voluptates sit quae veritatis enim eum, ullam
-              incidunt nemo deserunt tempore esse nostrum quibusdam quidem
-              nesciunt rerum vel.
-            </p>
           </div>
         </div>
       </div>
